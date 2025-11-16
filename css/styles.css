@@ -1,9 +1,9 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html {
+html{
   --color1: #00bbc2;
   --color2: #0f52ba;
   --color3: #7ae4e4;
@@ -14,14 +14,20 @@ html {
   --fuente3: "Cal Sans", sans-serif;
   --fuente4: "Montserrat", sans-serif;
 }
-
-.navbar navbar-expand-lg bg-body-tertiary fixed-top{
-  background-color: var(--color2);
+body{
+  background-color:var(--color5);
+  color: var(--color1);
 }
+
 
 header{
   margin-bottom: 70px;
 }
+
+#navBarNav{
+  background-color: #00bbc2;
+}
+
 header img {
   width: 40px;
   height: 40px;
@@ -30,11 +36,27 @@ header img {
   margin-left: 20px;
 }
 
+#hero{
+  text-align: center;
+  font-family: var(--fuente2);
+}
+
 .carousel-item img {
   height: 400px; 
   object-fit: cover; 
 }
 
+#formularioContacto{
+  width: 500px;
 
+  color: #00bbc2;
+}
 
+footer{
+  background-color: var(--color5);
+}
+
+#table{
+  background-color: #00bbc2;
+}
 
