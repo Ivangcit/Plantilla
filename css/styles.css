@@ -41,9 +41,14 @@ header img {
   font-family: var(--fuente2);
 }
 
+.card img{
+  height: 250px;
+  width: 250px;
+}
 .carousel-item img {
-  height: 400px; 
+  height: 350px; 
   object-fit: cover; 
+  
 }
 
 #formularioContacto{
