@@ -15,7 +15,7 @@ html {
   --fuente4: "Montserrat", sans-serif;
 }
 
-.navbar{
+.navbar navbar-expand-lg bg-body-tertiary fixed-top{
   background-color: var(--color2);
 }
 
@@ -23,9 +23,11 @@ header{
   margin-bottom: 70px;
 }
 header img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   align-self: center;
+  margin-right:20px;
+  margin-left: 20px;
 }
 
 .carousel-item img {
